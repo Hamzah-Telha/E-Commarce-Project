@@ -1,0 +1,32 @@
+CREATE TABLE admin (
+    ad_id int PRIMARY KEY not null AUTO_INCREMENT,
+    ad_name varchar(12) not null,
+    ad_password varchar(12) not null
+    );
+CREATE TABLE employee (
+    em_id int PRIMARY KEY not null AUTO_INCREMENT,
+    em_name varchar(12) not null,
+    em_password varchar(12) not null,
+    ad_id int,
+    FOREIGN KEY (ad_id) REFERENCES admin(ad_id)
+    );
+CREATE TABLE seller (
+    se_id int PRIMARY KEY not null AUTO_INCREMENT,
+    se_name varchar(12) not null,
+    se_password varchar(12) not null,
+    em_id int,
+    FOREIGN KEY (em_id) REFERENCES employee(em_id),
+    );
+CREATE TABLE store (
+    st_id int PRIMARY KEY not null AUTO_INCREMENT,
+    st_name varchar(12) not null,
+    se_id int,
+    FOREIGN KEY (se_id) REFERENCES seller(se_id)
+    );
+CREATE TABLE customer (
+    cu_id int PRIMARY KEY not null AUTO_INCREMENT,
+    cu_name varchar(12) not null,
+    cu_password varchar(12) not null
+    );
+    
+    

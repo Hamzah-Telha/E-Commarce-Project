@@ -1,0 +1,105 @@
+body{
+	
+	height: 2000px;
+}
+.price_table{
+background: #EEE;
+padding-top: 30px;
+padding-bottom: 30px;	
+
+}
+.price_table .container{
+	
+}
+.price_table h1{
+	margin-bottom: 30px;
+
+}
+.price_table .price_box{
+	background:#FFF ;
+	padding: 10px;
+	border: 1px solid green;
+	margin: 15px;
+
+}
+.price_table .price_box h2{
+	margin: 5px;
+	margin-bottom: 15px;
+
+
+}
+.price_table .price_box p{
+	font-size: 35px;
+	font-weight: bold;
+	color: #666;
+
+}
+.price_table .price_box a{
+
+width: 200px;
+}
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #989CB8;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+		nav {
+  float: left;
+  width: 24%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #E0E4EC;
+  padding: 20px;
+  height: 2000px;
+}
+
+nav div{
+  margin: 30px;
+  padding: 20px;
+}
+.R  
+{
+	float: right;
+	width: 24%;
+	margin: 0px;
+	padding-left: 2%;
+	text-align: left;
+	background-color: #E0E4EC;
+	margin-left: 0px;
+	margin-right: px;
+	height: 2000px;
+}
+
+.R input{
+	margin: 10px;
+	padding: 4%;
+
+	
+}
+
+.R form{
+	margin-left: 0pxS;
+	background-color: ;
+
+}
+.R p{
+	font-style: italic;
+	font-size: 15px;
+
+}
+.row
+{
+ margin-right: 0px;
+}
+
+

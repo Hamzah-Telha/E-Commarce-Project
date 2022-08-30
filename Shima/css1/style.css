@@ -1,0 +1,94 @@
+
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+  nav {
+  float: left;
+  width: 24%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #E0E4EC;
+  padding: 20px;
+  height: 3000px;
+}
+
+
+nav div{
+  margin: 30px;
+  padding: 20px;
+} 
+nav div a{
+  width: 100px;
+  height: 35px;
+
+}
+.price_table{
+  background:#EEE ;
+  padding-top: 40px;
+  padding-bottom:40px ;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  }
+
+  background-position:center;
+ /* margin-left: 175px;*/
+ /*margin-right: 175px;*/
+}
+/*  .price_table .container{
+  margin: 200px;*/
+}
+.price_table h1{
+  margin-bottom: 30px;
+
+}
+.panel{
+  margin-bottom: 40px;
+
+}
+.panel-heading{
+  color: #DE9D3C;
+  font-size: 20px;
+}
+.price_table .box a{
+height: 40px;
+width: 200px;
+font-size: 20px;
+
+}
+.R  
+{
+  float: right;
+  width: 24%;
+  margin: 0px;
+  padding-left: 2%;
+  text-align: left;
+  background-color: #E0E4EC;
+  margin-left: 0px;
+  margin-right: px;
+  height: 3000px;
+}
+
+.R input{
+  margin: 10px;
+  padding: 4%;
+
+  
+}
+
+.R form{
+  margin-left: 0pxS;
+  background-color: ;
+
+}
+.R p{
+  font-style: italic;
+  font-size: 15px;
+
+}

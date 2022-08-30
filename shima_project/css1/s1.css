@@ -1,0 +1,30 @@
+.container
+{
+	padding: 10px;
+	background: #EEE;
+	color: #FFF;
+	margin-bottom: 10px;
+	min-height: 100px;
+	
+
+}
+.container .row{
+	padding: 10px;
+}
+.container img{
+	padding: 10px;
+	border: solid 2px ;
+	border-color: #DE9D3C;
+
+}
+
+.container h1{
+	color: black;
+}
+.container p{
+	color: black;
+}
+.container p .btn {
+	padding: 10px;
+	margin: 10px;
+}
